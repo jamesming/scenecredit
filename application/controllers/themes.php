@@ -25,7 +25,7 @@ class Themes extends CI_Controller {
    }
    
 
-   public function index(){
+   public function index(){//
 
    				$this->users = $this->custom->get_users_from_profile_url( 
    					$profile_url = $this->uri->segment(1) 
